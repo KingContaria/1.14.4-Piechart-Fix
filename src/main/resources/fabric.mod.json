@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "piechart-fix",
+  "version": "${version}",
+
+  "name": "1.14.4 Piechart Fix",
+  "description": "",
+  "authors": [
+    "KingContaria"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+
+  "environment": "*",
+  "mixins": [
+    "piechartfix.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "minecraft": ">=1.14.4-rc.5 <=1.15-rc.4"
+  }
+}
